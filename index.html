@@ -42,19 +42,19 @@
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">Education</a>
+          <a class="nav-link" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">Experience</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="#parallax">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -97,24 +97,19 @@
   <div class="layer" id="l9">
     <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
   </div>
-  <!-- social icon -->
-  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-linkedin"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-vsco"></i></a></li>
-  </ul>
-  <!-- /social icon -->
 </section>
 <!-- /hero area -->
 
 <!-- about -->
-<section class="section">
+<section class="section" id = "about">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
         <p class="font-secondary paragraph-lg text-dark">I'm a recent M.S. graduate in Computer Science from Arizona State University with a 
           passion for turning data into insights that shape products and drive business decisions. I'm excited to apply my skills in analytics and AI to solve real-world challenges 
           and create impact through thoughtful, data-driven strategies.</p>
-        <a href="about.html" class="btn btn-transparent">know more</a>
+        <a href="index.html" class="btn btn-transparent">know more</a>
+        <a href="resume/Aashka Dave Resume.pdf" class="btn btn-primary" download="Aashka_Dave_Resume" target="_blank">Download My Resume</a>
       </div>
     </div>
   </div>
@@ -122,7 +117,7 @@
 <!-- /about -->
 
 <!-- skills -->
-<section class="section">
+<section class="section" id = "Skills">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -186,7 +181,7 @@
 <!-- /skills -->
 
 <!-- experience -->
-<section class="section">
+<section class="section" id = "experience">
   <div class="container">
     <div class="row justify-content-around">
       <div class="col-lg-12 text-center">
@@ -216,7 +211,7 @@
 <!-- ./experience -->
 
 <!-- education -->
-<section class="section position-relative">
+<section class="section position-relative" id = "education">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -348,7 +343,7 @@
 <!-- /blog -->
 
 <!-- contact -->
-<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png" id = "contact">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -382,26 +377,29 @@
 <!-- footer -->
 <footer class="bg-dark footer-section">
   <div class="section">
-    <div class="container">
+    <div class="container" style="text-align: center;">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">aashka.dave2099@gmail.com</p>
+          <p class="text-white paragraph-lg font-secondary">
+            <a href="mailto:aashka.dave2099@gmail.com" class="text-white">
+              <i class="ti-email"></i> aashka.dave2099@gmail.com
+            </a>
+          </p>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
+        <div class="col-md-6">
+          <h5 class="text-light">LinkedIn</h5>
+          <p class="text-white paragraph-lg font-secondary">
+            <a href="https://www.linkedin.com/in/aashkaadave" class="text-white" target="_blank">
+              <i class="ti-linkedin"></i> aashkaadave
+            </a>
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">Copyright ©<script>
-        var CurrentYear = new Date().getFullYear()
-        document.write(CurrentYear)
-      </script> a theme by <a href="themefisher.com">themefisher.com</a></p>
-  </div>
 </footer>
+
 <!-- /footer -->
 
 <!-- jQuery -->
